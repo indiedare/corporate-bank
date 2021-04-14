@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.85rem;
+}
+
+.my-sidebar {
+    margin-top: 20px;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.main-body {
+    position: relative;
+}
+
+.brand-logo {
+    width: 150px;
+}
+
+.desktop-navbar {
+    align-items: center;
+}
+
+.btn-account {
+    position: relative;
+    border-radius: 7px;
+    background: green;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    outline: 0;
+}
+
+.btn-account:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.carousel-caption {
+    color: green;
+    background: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.85;
+    top: 50%;
+    bottom: initial;
+}
+
+.img-fit {
+    min-width: 100%;
+    height: auto;
+}
+
+.btn-login {
+    background-color: green;
+    color: #FFF;
+}
+
+.login-modal {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    border-radius: 7px;
+    width: 200px;
+    background: #FFF;
+    opacity: 0.80;
+    padding: 12px 12px 12px 12px;
+}
+
+.feature-img-rounded {
+    width: 100px;
+    height: 100px;
+}
+
+.exchange-and-stock-section {
+    margin-top: 8.5rem 0;
+}
+
+.features-section {
+    display: flex;
+}
+
+.features-section,
+.more-features-section {
+    margin: 8rem 0;
+}
+
+.more-feat-heading {
+    font-weight: 600;
+    line-height: 3.5rem;
+    font-size: 20px;
+}
+
+.eas-lead {
+    color: #5CA676;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.eas-sublead {
+    color: #333333;
+    font-weight: bold;
+}
+
+.footer-second-down {
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    background-color: #556B2F;
+    opacity: 0.80;
+}
+
+.feedback-img {
+    height: 35px;
+    width: 35px;
+}
+
+.cb-footer {
+    background: #6B8E23;
+    opacity: 0.80;
+    border-color: #F1F1F1;
+}
+
+.cb-footer-top {
+    color: #FFF;
+}
+
+.cb-footer-social {
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.more-tools {
+    color: green;
+    font-weight: 500;
+    font-family: 'Inter';
+    text-transform: uppercase;
+}
+
+.contact-item p:nth-child(1) {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-item p:nth-child(2) {
+    color: #AFD3BC;
+}
+
+@media (max-width: 500px) {
+    .carousel-inner {
+        height: 70vh;
+    }
+    .features-section {
+        display: block !important;
+    }
+    .more-features-section {
+        flex-direction: column;
+    }
+    .img-fit {
+        min-width: 100vw;
+    }
+}
+
+#learnmore,
+#learnmore2,
+#learnmore3 {
+    color: green;
+}
+
+.btn-account {
+    height: 40px;
+    width: 190px;
+}
+
+@media screen and (max-width: 480px) {
+    #loginform {
+        height: 150px;
+    }
+    #loginform input {
+        width: 80px;
+    }
+    #loginform label {
+        font-size: 17px;
+    }
+    #loginform button {
+        position: relative;
+        top: -145px;
+        left: 85px;
+        width: 100px;
+    }
+    #loginform button img {
+        height: 40px;
+    }
+    .btn-account {
+        height: auto;
+        width: auto;
+    }
+}
